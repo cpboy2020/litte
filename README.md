@@ -5,8 +5,9 @@
 * lede/package$下运行 或者openwrt/package$下运行
 
 ```bash
- git clone https://github.com/kenzok8/openwrt-packages.git
+ git clone https://github.com/kenzok8/litte.git
 ```
+
 * Lean源码下快捷编译
 
 ```bash
@@ -38,11 +39,11 @@ make download && make -j$(nproc) V=s
 ```bash
 rm -rf package/lienol/luci-app-passwall && rm -rf package/lean/luci-app-ssr-plus
 rm -rf package/litte/microsocks && rm -rf package/litte/redsocks2 && rm -rf package/litte/tcpping
-rm -rf package/litte/adguardhome && rm -rf package/litte/luci-app-adguardhome
+rm -rf package/ntlf9t/AdGuardHome && rm -rf package/ctcgfw/luci-app-adguardhome
 rm -rf package/litte/luci-app-advancedsetting && rm -rf package/litte/luci-app-aliddns && rm -rf package/litte/luci-app-clash
 rm -rf package/litte/gost && rm -rf package/litte/luci-app-gost && rm -rf package/litte/luci-app-eqos
 rm -rf package/ctcgfw/luci-app-openclash && rm -rf package/litte/luci-app-smartdns && rm -rf package/litte/smartdns
-rm -rf package/ctcgfw/luci-theme-atmaterial && rm -rf package/ctcgfw/luci-theme-opentomato && rm -rf package/ctcgfw/luci-theme-opentomcat
+rm -rf package/ctcgfw/luci-theme-atmaterial && rm -rf package/ctcgfw/luci-theme-opentomato && rm -rf package/ctcgfw/luci-theme-mcat
 cp -f package/litte/default-settings package/lean/default-settings/files/zzz-default-settings
 cp -f package/litte/banner package/base-files/files/etc/banner
 cp -f package/litte/ctcdiffconfig .config && make defconfig
@@ -58,7 +59,8 @@ make download && make -j$(nproc) V=s
 - luci-theme-atmaterial        
 - atmaterial 三合一主题
 - luci-theme-argon-new
-- argon主题 Lean Lienol 19.07适配
+- argon二合一主题 Lean Lienol 19.07适配
+- ifit 透明主题
 - luci-app-ADG        
 - 去广告
 - luci-app-passwall           
@@ -84,9 +86,9 @@ make download && make -j$(nproc) V=s
 ![抹茶绿主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-12.jpg)
 ![抹茶绿主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-13.jpg)
 ![抹茶绿主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-14.jpg)
-![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-1.jpg)
-![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-2.jpg)
-![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-3.jpg)
-![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-4.jpg)
+![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-1.png)
+![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-2.png)
+![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-3.png)
+![argon主题](https://raw.githubusercontent.com/kenzok8/openwrt-packages/master/screenshot/sshot-4.png)
 
 
